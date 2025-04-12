@@ -21,7 +21,7 @@ This framework is designed to be extended in the final round to work with real-t
 
 ---
 
-## 2. 🧱 Architecture (See `architecture.png`)
+## 2. 🧱 Architecture 
 
 The framework is divided into 7 key components:
 
@@ -87,6 +87,7 @@ Each hidden market state corresponds to a discrete signal:
 
 This approach is robust in adapting to structural volatility in the crypto markets.
 
+---
 
 ## 4. 🧪 Evaluation Metrics
 
@@ -100,7 +101,7 @@ We aim to meet the following quantitative thresholds during simulation and live 
 | **Win Rate**     | *Optional*         |
 | **Profit Factor**| *Optional*         |
 
-
+---
 
 ## 5. 🔮 Future Work (For Finals)
 
@@ -110,7 +111,7 @@ We aim to meet the following quantitative thresholds during simulation and live 
 - Add an auto-optimization module for parameter tuning  
 - Develop a **web dashboard** for visual trade monitoring
 
-
+---
 
 **Submitted by: THE NEWBIES**  
 *(Duo Preliminary Submission – UMHackathon 2025 | Balaena Quant – Domain 2)*                                                                                                         
