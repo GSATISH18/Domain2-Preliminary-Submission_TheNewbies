@@ -73,3 +73,46 @@ The framework is divided into 7 key components:
   - Sharpe Ratio  
   - Drawdown chart  
   - Trade markers  
+
+---
+
+## 3. 📊 Proposed Strategy
+
+We propose using an **HMM-based regime detection model** trained on a mixture of on-chain indicators (like whale inflows and funding rates) and price-derived features (returns, volume spikes).
+
+Each hidden market state corresponds to a discrete signal:
+- **Bullish (State 1):** Long entry (Buy)  
+- **Bearish (State 2):** Exit or Short (Sell)  
+- **Neutral (State 3):** No trade (Hold)
+
+This approach is robust in adapting to structural volatility in the crypto markets.
+
+---
+
+## 4. 🧪 Evaluation Metrics
+
+We aim to meet the following quantitative thresholds during simulation and live testing:
+
+| Metric           | Target             |
+|------------------|--------------------|
+| **Sharpe Ratio** | ≥ 1.8              |
+| **Max Drawdown** | ≥ -40%             |
+| **Trade Frequency** | ≥ 3 trades/week |
+| **Win Rate**     | *Optional*         |
+| **Profit Factor**| *Optional*         |
+
+---
+
+## 5. 🔮 Future Work (For Finals)
+
+- Integrate with **live Cybotrade API endpoints**  
+- Collect and store **real BTC/ETH multi-year data**  
+- Build alternative ML strategies (LSTM, hybrid HMM-XGBoost)  
+- Add an auto-optimization module for parameter tuning  
+- Develop a **web dashboard** for visual trade monitoring
+
+---
+
+**Submitted by: THE NEWBIES**  
+*(Duo Preliminary Submission – UMHackathon 2025 | Balaena Quant – Domain 2)*                                                                                                         
+*[It's not in out scope of experty,but we will learn  and try to make our idea happen.]*
